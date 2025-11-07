@@ -1,0 +1,119 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.cjs
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+*.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# lock files (optional – ignore if using consistent package manager)
+# Uncomment one if you don't want to track lock files:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# eslint and cache
+.eslintcache
+
+# storybook
+/out
+.storybook-out
+
+# build tool cache
+/.parcel-cache
+/.turbo
+/.next
+.next
+.cache
+.cache-loader
+
+# react-native / mobile builds
+/expo
+/android
+/ios
+
+# firebase
+.firebase/
+
+# vercel
+.vercel/
+
+# netlify
+.netlify/
+
+# temporary files
+*.tmp
+*.temp
+*.bak
+
+# coverage and reports
+lcov-report/
+test-results/
+junit.xml
+coverage-final.json
+
+# type checking
+tsconfig.tsbuildinfo
+
