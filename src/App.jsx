@@ -70,7 +70,9 @@ function App() {
         <Routes>
           {/* 🌍 Public Routes */}
           <Route path="/" element={<Home />} />
-            <Route path="/categories" element={<QuizCategories />} />
+            <Route path="/categories" element={<ProtectedRoute>
+                <QuizCategories />
+              </ProtectedRoute>} />
             <Route path="/quiz/:id" element={<QuizPage />} />
             <Route path="/result" element={<ResultPage />} />
             <Route path="/about" element={<AboutContact />} />
